@@ -2,7 +2,6 @@
 const nextConfig = {
   reactStrictMode: true,
   webpack: (config) => {
-    // Ajoutez votre configuration ici
     config.node = {
       global: false,
     };

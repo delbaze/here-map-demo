@@ -23,6 +23,7 @@ function Map() {
             });
             // Create a new map instance with the Tile layer, center and zoom level
             // Instantiate (and display) a map:
+            
             const newMap = new H.Map(
                 mapRef.current,
                 defaultLayers.vector.normal.map, {
